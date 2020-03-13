@@ -63,9 +63,13 @@ If you have any questions, comments, or concerns, please feel free to contact th
 
 ## **Technologies used**
 
-* C#
+* .NET Core
 
-* .Net Core
+* ASP.NET Core MVC
+
+* Razor
+
+* C#
 
 * Visual Studio Code
 
