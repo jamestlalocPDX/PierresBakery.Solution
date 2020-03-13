@@ -6,7 +6,7 @@
 
 ## **Description**
 
-_This C# codebase will build a user friendly application for Pierre's Bakery, allowing him to keep track of his vendors that purchase baked goods from him, as well as the orders belonging to those vendors. _
+_This C# codebase will build a user-friendly application for Pierre's Bakery, allowing him to keep track of his vendors that purchase baked goods from him, as well as the orders belonging to those vendors. _
 
 ## Preview
 
@@ -25,13 +25,14 @@ _This C# codebase will build a user friendly application for Pierre's Bakery, al
 
 ## **Minimum Viable Product (MVP)**
 
-The MVP of this application is to allow potential customers to choose whether or not they would like to purchase anything, see the day's specials, choose the amount of bread and/or pastry they would like, and see that in their detailed order information as well as the total of their order.
+The MVP of this project is to allow Pierre to keep track of his vendors and their orders through a user-friendly MVC web aplication.
 
 Stretch goals include:
 
-* Allow potential customers to buy different kinds of Bread and Pastries.
-* Add additional deals that fall on different days of the week.
-* Allow potential customers to continue adding to their cart/order.
+* Allow Pierre to click an rrder's name to go to a separate page to view its details.
+* Add the ability to delete individual Vendors, all Orders belonging to a Vendor, individual Orders, or all Vendors.
+* Add the ability for Pierre to note whether an order has been paid for or not.
+* Add search functionality.
 
 ## **Setup/Installation**
 
