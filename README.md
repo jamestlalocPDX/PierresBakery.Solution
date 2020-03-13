@@ -15,10 +15,10 @@ _This C# codebase will build a user-friendly application for Pierre's Bakery, al
 
 | Behavior | Input | Output |
 |----------|:-----:|--------|
-| Customer enters "Yes" to decide whether or not to purchase bread or pastry. | Yes | "Wonderful! Here are today's specials. <br> Bread: Buy 2 hearty loaves, get 1 free. <br> Pastry: Buy 1 tasty pastry for $2 or 3 for $5 |
-| Customer enters "No" to decide whether or not to purchase bread or pastry. | No | "Thank you for stopping by Pierre's Bakery!" <br> "We hope to see you back soon. Have a nice Day!" |
-| Customer enters an amount for a hearty loaf of bread. | 1 | $5, 1 hearty loaf. |
-| Customer enters an amount for a single tasty pastry. | 1 | $2, 1 tasty pastry. |
+| Pierre enters the name of a vendor. | "Suzie's Cafe" | newVendor.name == "Suzie's Cafe" |
+| Pierre enters the description of a vendor. | "Newest cafe in town." | newVendor.description == ""Newest cafe in town."|
+| Pierre adds an order to a vendor. | "Croissants" | newVendor.order.name == "Croissants" |
+| Pierre adds a description to the order. | 
 | Customer enters an amount for 2 hearty loaves of bread. | 2 | $10, 3 hearty loaves. |
 | Customer enters an amount for 3 tasty pastries. | 3 | $5, 3 tasty pastries. |
 | Customer enters an amount for both bread and pastry. | 2, 3 | $15, 2 hearty loaves and 3 tasty pastries. |
