@@ -39,9 +39,10 @@ Stretch goals include:
 *Cloning this repository:*
 1. Open up your terminal.
 2. Navigate to the desired directory in which you want to clone this repository.
-3. Use the command `git clone https://github.com/jonathancarlos21/Pierres-Bakery` to clone this repository.
+3. Use the command `git clone https://github.com/jonathancarlos21/PierresBakery.Solution` to clone this repository.
 4. Open this repository from within your terminal.
-5. Use `dotnet run` to start the application.
+5. Use `dotnet run` to generate a local server.
+6. Copy and paste the given `localhost:5000` onto your URL.
 
 *Downloading this repository:*
 1. On the top right of this page, click the "Clone or download" button.
@@ -49,7 +50,8 @@ Stretch goals include:
 3. Click the downloaded file to unzip and extract this repository to your desired directory.
 4. Within your terminal, navigate to the directory where you saved this repository.
 5. Open the repository within your terminal.
-6. Use `dotnet run` to start the application.
+6. Use `dotnet run` to generate a local server.
+7. Copy and paste the given `localhost:5000` onto your URL.
 
 ## **Known Bugs**
 
