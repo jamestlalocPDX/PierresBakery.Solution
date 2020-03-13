@@ -1,4 +1,4 @@
-# Pierre's Bakery
+# Pierre's Bakery Vendor Database
 
 #### _Code Review for Week 10 - 3/13/2020_
 
@@ -6,7 +6,7 @@
 
 ## **Description**
 
-_This C# codebase will build a user-friendly application for Pierre's Bakery, allowing him to keep track of his vendors that purchase baked goods from him, as well as the orders belonging to those vendors. _
+_This C# codebase will build a user-friendly application for Pierre's Bakery, allowing him to keep track of his vendors that purchase baked goods from him, as well as the orders belonging to those vendors._
 
 ## Preview
 
@@ -15,13 +15,17 @@ _This C# codebase will build a user-friendly application for Pierre's Bakery, al
 
 | Behavior | Input | Output |
 |----------|:-----:|--------|
-| Pierre enters the name of a vendor. | "Suzie's Cafe" | newVendor.name == "Suzie's Cafe" |
-| Pierre enters the description of a vendor. | "Newest cafe in town." | newVendor.description == ""Newest cafe in town."|
-| Pierre adds an order to a vendor. | "Croissants" | newVendor.order.name == "Croissants" |
-| Pierre adds a description to the order. | 
-| Customer enters an amount for 2 hearty loaves of bread. | 2 | $10, 3 hearty loaves. |
-| Customer enters an amount for 3 tasty pastries. | 3 | $5, 3 tasty pastries. |
-| Customer enters an amount for both bread and pastry. | 2, 3 | $15, 2 hearty loaves and 3 tasty pastries. |
+| Pierre enters vendor name. | "Suzie's Cafe" | newVendor.name == "Suzie's Cafe" |
+| Pierre enters vendor description. | "Newest cafe in town." | newVendor.description == ""Newest cafe in town."|
+| Pierre adds an order title to a vendor. | "Croissants." | newVendor.order.title == "Croissants." |
+| Pierre adds an order description to a vendor. | "Cream filled croissants." | newVendor.order.title == "Cream filled croissants."
+| Pierre adds an order price to a vendor. | "20" | newVendor.order.price == 20 |
+| Pierre adds an order date to a vendor.| "05/01/2020" | newVendor.order.date == "05/01/2020" |
+| Pierre is greeted with a welcome splash page. | localhost:5000/ |  | Route == "/" |
+| Pierre clicks on a link that sends him to a form where he can add a vendor. | "click" | route == /form |
+| Pierre clicks on a vendor's name and it goes to a page that displays all of that vendor's orders. | "click" | route == /vendors/orders/ |
+| Pierre clicks on a link that presents a form for a new order for a particular vendor. | "click" | route == /vendors/1/orders/new |
+
 
 ## **Minimum Viable Product (MVP)**
 
