@@ -21,7 +21,7 @@ _This C# codebase will build a user-friendly application for Pierre's Bakery, al
 | Pierre adds an order description to a vendor. | "Cream filled croissants." | newVendor.order.title == "Cream filled croissants."
 | Pierre adds an order price to a vendor. | "20" | newVendor.order.price == 20 |
 | Pierre adds an order date to a vendor.| "05/01/2020" | newVendor.order.date == "05/01/2020" |
-| Pierre is greeted with a welcome splash page. | localhost:5000/ |  | Route == "/" |
+| Pierre is greeted with a welcome splash page. | localhost:5000/ | route == "/" |
 | Pierre clicks on a link that sends him to a form where he can add a vendor. | "click" | route == /form |
 | Pierre clicks on a vendor's name and it goes to a page that displays all of that vendor's orders. | "click" | route == /vendors/orders/ |
 | Pierre clicks on a link that presents a form for a new order for a particular vendor. | "click" | route == /vendors/1/orders/new |
