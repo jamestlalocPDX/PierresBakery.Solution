@@ -1,4 +1,4 @@
-# Pierre's Bakery Vendor Database
+# Pierre's Vendor Database
 
 #### _Code Review for Week 10 - 3/13/2020_
 
@@ -81,6 +81,6 @@ If you have any questions, comments, or concerns, please feel free to contact th
 
 ## **License**
 
-Copyright (c) 2020 **_Pierre's Bakery_**
+Copyright (c) 2020 **_Pierre's Vendor Database_**
 
 This software is licensed under the MIT license.
