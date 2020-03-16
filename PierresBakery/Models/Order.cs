@@ -10,9 +10,9 @@ namespace PierresBakery.Models
     public string Date { get; set; }
     private static List<Order> _instances = new List<Order> {};
 
-    public Order (string title,string description, string price, string date)
+    public Order (string title, string description, string price, string date)
     {
-      Title= title;
+      Title = title;
       Description = description;
       Price = price;
       Date = date;
